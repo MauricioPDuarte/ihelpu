@@ -57,7 +57,9 @@ class SignInPage extends StatelessWidget {
                     style: ElevatedButton.styleFrom(
                       primary: AppColors.primary,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushReplacementNamed(context, "/tasks");
+                    },
                     child: Text("ENTRAR", style: AppFonts.buttonText),
                   ),
                 ),
@@ -69,7 +71,9 @@ class SignInPage extends StatelessWidget {
                       Text("Ainda nao possui uma conta?",
                           style: AppFonts.subtitleMediumGrey),
                       TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.pushReplacementNamed(context, "/signUp");
+                          },
                           child: Text(
                             "Criar conta",
                             style: AppFonts.textPrimary14,

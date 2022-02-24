@@ -11,7 +11,7 @@ class AppFonts {
   );
 
   static final title = GoogleFonts.roboto(
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: FontWeight.w500,
     color: AppColors.grey,
   );
@@ -41,7 +41,7 @@ class AppFonts {
   );
 
   static final subtitleRegular = GoogleFonts.roboto(
-    fontSize: 10,
+    fontSize: 12,
     fontWeight: FontWeight.w400,
     color: AppColors.secondary,
   );

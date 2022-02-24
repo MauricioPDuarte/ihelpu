@@ -59,7 +59,9 @@ class SignUpPage extends StatelessWidget {
                   Text("Ja possui uma conta?",
                       style: AppFonts.subtitleMediumGrey),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushReplacementNamed(context, "/signIn");
+                      },
                       child: Text(
                         "Fazer login",
                         style: AppFonts.textPrimary14,
